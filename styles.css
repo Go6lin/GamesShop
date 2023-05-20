@@ -1,0 +1,293 @@
+body {
+  font-family: "Codename Coder Free 4F";
+  font-size: 16px;
+  background-color: #5677d0;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: white; }
+
+h1 {
+  font-family: "Share Tech"; }
+
+h2 {
+  font-size: 30px;
+  margin-block-start: 0;
+  margin-block-end: 0; }
+
+h3 {
+  font-family: "Share Tech";
+  color: red;
+  font-size: 26px;
+  margin-left: 5%;
+  margin-block-start: 10%;
+  margin-block-end: 0; }
+
+h4 {
+  font-family: "Share Tech";
+  text-decoration: line-through;
+  margin-left: 25%;
+  margin-block-start: 0;
+  margin-block-end: 0; }
+
+.annotation {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  padding: 1%;
+  background-color: #c5c5c5;
+  border-top-left-radius: 1% 15%;
+  border-bottom-left-radius: 1% 15%;
+  border-top-right-radius: 1% 15%;
+  border-bottom-right-radius: 1% 15%; }
+
+.button {
+  color: white;
+  background-color: red;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  border-top-left-radius: 5% 15%;
+  border-bottom-left-radius: 5% 15%;
+  border-top-right-radius: 5% 15%;
+  border-bottom-right-radius: 5% 15%; }
+
+.details {
+  width: 100px;
+  font-weight: 1000;
+  font-size: 18px; }
+
+.container {
+  background-color: white;
+  margin-left: 17%;
+  margin-right: 17%;
+  padding-bottom: 1%; }
+
+.footer {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #5677d0;
+  clip-path: polygon(40% 100%, 60% 100%, 80% 0, 20% 0); }
+
+.info {
+  position: relative;
+  margin-left: 5%; }
+
+.corpus {
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.obj {
+  display: flex;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+  border-bottom: 2px solid gray;
+  padding-bottom: 2.5%; }
+
+.object {
+  display: flex;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+  border-bottom: 2px solid gray;
+  padding-bottom: 2.5%; }
+
+.img {
+  position: relative;
+  width: 250px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.img__main {
+  height: 200px;
+  border: 3px solid gray;
+  box-shadow: 0px 20px 20px -10px #151515;
+  border-top-left-radius: 15% 15%;
+  border-bottom-left-radius: 15% 15%;
+  border-top-right-radius: 15% 15%;
+  border-bottom-right-radius: 15% 15%; }
+
+.imgs {
+  display: flex;
+  height: 500px;
+  margin-top: 5%; }
+
+.img__logo {
+  height: 20px; }
+
+.img__big {
+  height: 475px;
+  width: 475px; }
+
+.img__small-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-left: 3%; }
+
+.img__small {
+  height: 100px;
+  margin-bottom: 13%; }
+
+.price {
+  display: flex;
+  background-color: #4b4b4b;
+  white-space: nowrap;
+  border-top-left-radius: 5% 15%;
+  border-bottom-left-radius: 5% 15%;
+  border-top-right-radius: 5% 15%;
+  border-bottom-right-radius: 5% 15%; }
+
+.price__new {
+  display: inline-block; }
+
+.price__old {
+  display: inline-block; }
+
+.setting {
+  display: flex;
+  justify-content: center;
+  margin-left: 5%;
+  margin-bottom: 2.5%;
+  margin-top: 2.5%; }
+
+.pages-list {
+  display: flex;
+  margin-top: 2.5%; }
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0; }
+
+form {
+  font-family: "Codename Coder Free 4F";
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 3px solid black;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-bottom: 2%; }
+
+.input {
+  font-family: "Codename Coder Free 4F";
+  font-size: 16px; }
+
+.page {
+  color: white;
+  margin-right: 1%;
+  padding: 0.2%;
+  border: 1px solid black;
+  background-color: gray; }
+
+.page__blue {
+  color: white;
+  margin-right: 1%;
+  padding: 0.2%;
+  border: 1px solid black;
+  background-color: #5677d0; }
+
+.info__detail__main {
+  display: flex; }
+
+.info__detail__consoles {
+  margin-left: 5%; }
+
+.announce {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  background-color: #c5c5c5;
+  border-top-left-radius: 1% 15%;
+  border-bottom-left-radius: 1% 15%;
+  border-top-right-radius: 1% 15%;
+  border-bottom-right-radius: 1% 15%; }
+
+.buy {
+  margin-top: 1%;
+  font-size: 26px;
+  display: inline-block;
+  height: 37px; }
+
+.enter {
+  position: absolute;
+  margin-left: 5%;
+  width: 200px;
+  background-color: white; }
+
+.authorization {
+  margin-top: 10%;
+  margin-left: 11%;
+  margin-right: 11%; }
+
+.authorization-logo {
+  font-family: "Codename Coder Free 4F"; }
+
+.add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%; }
+
+.add-button-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%; }
+
+.add-button {
+  font-family: "Codename Coder Free 4F"; }
+
+.enter-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  margin-top: 10%;
+  margin-bottom: 10%; }
+
+.filter {
+  font-family: "Codename Coder Free 4F";
+  padding-bottom: 2.5%;
+  font-size: 16px;
+  margin-left: 2%;
+  margin-top: 1.5%;
+  height: 20px; }
+
+.fail__message {
+  display: none; }
+
+.new-photo-box {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column; }
+
+.new-photo {
+  margin-bottom: 10px; }
+
+.new-platform {
+  margin-bottom: 10px; }
+
+.new-type {
+  margin-bottom: 10px; }
+
+.new-annotation {
+  margin-right: 20px;
+  height: 100px;
+  width: 450px; }
+
+.new-announce {
+  height: 100px;
+  width: 450px; }
+
+/*# sourceMappingURL=styles.css.map */

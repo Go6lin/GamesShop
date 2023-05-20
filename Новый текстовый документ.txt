@@ -1,0 +1,16 @@
+$sql = 'SELECT product.name, product.price, product.price_old, product.notice, product.content,
+                           currency.name, currency.simbol,
+                           product_images.url,
+                           product_param_variant.name,
+                           product_section.url, product_section.name, product_section.notice,
+                           product_type.url, product_type.name, product_type.notice
+                    FROM product 
+                    INNER JOIN product_images ON product.id = product_images.product_id 
+                    INNER JOIN currency ON product.currency_id = currency.id
+                    INNER JOIN product_assignment ON product.id = product_assignment.product_id
+                    INNER JOIN product_section ON product_assignment.section_id = product_section.id
+                    INNER JOIN product_type ON product_assignment.type_id = product_type.id    
+                    INNER JOIN product_param_assignment ON product.id = product_param_assignment.product_id
+                    INNER JOIN product_param_name ON product_param_assignment.param_name_id = product_param_name.id  
+                    INNER JOIN product_param_variant ON product_param_assignment.variant_id = product_param_variant.id
+                    WHERE product.id=' . $productId;
