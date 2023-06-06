@@ -100,18 +100,4 @@ $productController = new productController();
     </div>
         <button type="submit" id="adder" class="filter button">Добавить</button>
     </form>
-
-    <div id="message" class="message">
-        <?php
-        $check = $productController->takeNew();
-        if (empty($check)) {
-            print_r("нету");
-        } else {
-            print_r($check);
-            foreach ($productController->takeNew() as $item ){?>
-                <div class="messageee"><p><?php $item ?></p></div>
-        <?php
-        }}
-        ?>
-    </div>
 </div>

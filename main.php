@@ -22,6 +22,7 @@
     <div class="corpus">
         <?php require_once "View/modules/productSettings.php";?>
         <?php require_once "View/modules/productList.php";?>
+
     </div>
     <div class="footer">
         <?php require_once "View/modules/paging.php";?>

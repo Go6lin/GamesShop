@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $("#filter").on("submit", function (e) {
         e.preventDefault();
-        $.post('/ShogoTestTask/Controller/productController.php', $('#filter').serialize(), function(data){
+        $.post('/Controller/filter.php', $('#filter').serialize(), function(data){
             $(".corpus").html($(data).find('.box'));
             $('.fail__message').css("display", "block");
             $('.obj').remove();
@@ -12,7 +12,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $("#adder").on("submit", function (e) {
         e.preventDefault();
-        $.post('/ShogoTestTask/Controller/productController.php', $('#adder').serialize(), function(data){
+        $.post("/Controller/add.php", $('#adder').serialize(), function(data){
             alert('ok');
             console.log(data);
         });
@@ -21,7 +21,7 @@ $(document).ready(function () {
 
 (function($) {
     var $wrap = $('#select_platform');
-    $wrap.on('change', 'select', function($e) {
+    $wrap.on('change', 'select', function() {
         let i = $('.new-platform').length;
         if (i !== 3) {
         let obj = $(this).clone();
@@ -35,7 +35,7 @@ $(document).ready(function () {
 
 (function($) {
     var $wrap = $('#select_type');
-    $wrap.on('change', 'select', function($e) {
+    $wrap.on('change', 'select', function() {
         let i = $('.new-type').length;
         if (i !== 2) {
             let obj = $(this).clone();
@@ -49,7 +49,7 @@ $(document).ready(function () {
 
 (function($) {
     var $wrap = $('#new-photo');
-    $wrap.on('change', 'input', function($e) {
+    $wrap.on('change', 'input', function() {
         let i = $('.new-photo').length;
         if (i !== 4) {
             $(this).after('<input type="file" class="new-photo input" value="Загрузите фото" id="ph_'+ i +'">');
